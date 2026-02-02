@@ -1,0 +1,115 @@
+body{
+    height:auto;
+    width:100%;
+    background-color: #F5F5F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2cm;
+
+}
+
+div.container{
+    height:12cm;
+    width:20cm;
+    border:0px;
+    margin-top:1cm;
+    border-radius:13px;
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    display: flex; 
+      flex-direction: row;   
+}
+
+
+h1{
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+div.subcontainer{
+    height:12cm;
+    width:10cm;
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.15); /* Shadow to the right side only */
+}
+
+div#svg{
+   display: flex;
+   flex-direction: row;
+   gap:1cm;
+
+}
+
+svg{
+      cursor: pointer;
+}
+
+div#btn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1cm;
+    gap:1.2cm;
+}
+
+button{
+    height:0.9cm;
+    width:2.3cm;
+    border:none;
+    border-radius:8px;
+    background-color: #087bee;
+    color:white;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: pointer;
+}
+
+div#placeholder{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5cm;
+    align-items: flex-start;
+    text-align: left;
+}
+
+input{
+    height:0.8cm;
+    width:5cm;
+    border: 0.1px solid #ccc;
+    border-radius:5px;
+    background-color: aliceblue;
+
+}
+
+div.subcontainer2{
+    height:12cm;
+    width:10cm;
+    border: 0px;
+    border-radius: 13px;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.15); /* Shadow to the left side only */
+    background-image: url('modelphoto.png');
+    background-size: cover;
+    background-position: center;
+}
+
+p#tag{
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  margin-top:0.5cm;
+  word-wrap:normal;
+}
